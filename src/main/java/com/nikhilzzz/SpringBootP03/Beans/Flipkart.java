@@ -6,6 +6,9 @@ import org.springframework.stereotype.Component;
 
 @Component
 public class Flipkart {
+    Flipkart(){
+        System.out.println("Flipkart CONSTRUCTOR");
+    }
     @Autowired
     @Qualifier("jp")
     Partners pat;
