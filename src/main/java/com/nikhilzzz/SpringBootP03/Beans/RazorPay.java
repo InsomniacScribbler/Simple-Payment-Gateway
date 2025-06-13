@@ -9,6 +9,6 @@ public class RazorPay implements Partners{
     }
     @Override
     public void payments(String Amount) {
-        System.out.println("Payment done to JusPay for Rs."+Amount);
+        System.out.println("Payment done to RazorPay for Rs."+Amount);
     }
 }

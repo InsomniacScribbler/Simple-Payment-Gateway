@@ -10,7 +10,7 @@ public class Flipkart {
         System.out.println("Flipkart CONSTRUCTOR");
     }
     @Autowired
-    @Qualifier("jp")
+   // @Qualifier("jp")
     Partners pat;
 
     public void paymentGateway(String Amount)

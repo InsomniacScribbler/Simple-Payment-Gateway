@@ -1,8 +1,10 @@
 package com.nikhilzzz.SpringBootP03.Beans;
 
+import org.springframework.context.annotation.Primary;
 import org.springframework.stereotype.Component;
 
 @Component("jp")
+
 public class jusPay implements Partners{
 
     jusPay(){
